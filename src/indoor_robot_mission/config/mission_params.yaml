@@ -1,0 +1,20 @@
+mission_runner:
+  ros__parameters:
+    use_sim_time: true
+    waypoints_file: ""
+    action_name: navigate_to_pose
+    goal_timeout_sec: 180.0
+    server_timeout_sec: 10.0
+    max_attempts: 3
+    backoff_seconds: [2.0, 4.0, 8.0]
+    battery_capacity: 100.0
+    battery_initial: 100.0
+    battery_low_threshold: 25.0
+    battery_critical_threshold: 8.0
+    battery_drain_per_meter: 4.0
+    battery_attempt_cost: 1.0
+    battery_charge_per_second: 5.0
+    dock_resume_percent: 80.0
+    status_topic: mission_status
+    battery_topic: battery_state
+    command_topic: mission_command

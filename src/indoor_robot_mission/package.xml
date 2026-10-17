@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>indoor_robot_mission</name>
+  <version>0.1.0</version>
+  <description>Waypoint mission runner that sends Nav2 NavigateToPose goals, retries failures, and publishes mission status. Includes a software battery and docking stub.</description>
+  <maintainer email="applycoding@gmail.com">Arpan Bom</maintainer>
+  <license>MIT</license>
+
+  <depend>rclpy</depend>
+  <depend>nav2_msgs</depend>
+  <depend>action_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <exec_depend>python3-yaml</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

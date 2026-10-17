@@ -1,0 +1,23 @@
+frame_id: map
+start:
+  x: -1.70
+  y: -1.55
+  yaw: 1.5708
+dock:
+  name: dock
+  x: 1.70
+  y: -1.55
+  yaw: 1.5708
+waypoints:
+  - name: office
+    x: -1.70
+    y: 1.45
+    yaw: 0.0000
+  - name: kitchen
+    x: 1.70
+    y: 1.45
+    yaw: 3.1416
+  - name: lobby
+    x: -1.70
+    y: -1.55
+    yaw: 1.5708
